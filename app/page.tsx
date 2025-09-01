@@ -163,15 +163,30 @@ export default function Home() {
 
               {/* Social Links */}
               <div className="flex justify-center lg:justify-start gap-4">
-                <Button variant="ghost" size="icon" className="w-10 h-10">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="w-10 h-10"
+                  onClick={() => window.open("https://github.com/Qadrageous", "_blank")}
+                >
                   <Github className="w-5 h-5" />
                   <span className="sr-only">GitHub</span>
                 </Button>
-                <Button variant="ghost" size="icon" className="w-10 h-10">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="w-10 h-10"
+                  onClick={() => window.open("https://www.linkedin.com/in/aqadeerk", "_blank")}
+                >
                   <Linkedin className="w-5 h-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Button>
-                <Button variant="ghost" size="icon" className="w-10 h-10">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="w-10 h-10"
+                  onClick={() => window.open("mailto:abdulqadeer.aqr@gmail.com", "_blank")}
+                >
                   <Mail className="w-5 h-5" />
                   <span className="sr-only">Email</span>
                 </Button>
