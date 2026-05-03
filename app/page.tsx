@@ -91,13 +91,7 @@ export default function Home() {
   }
 
   const downloadResume = () => {
-    const link = document.createElement("a")
-    link.href = "https://blobs.vusercontent.net/blob/Abdul%20Qadeer%20-%20CV%20-VK2twcMH0yr05PQRLc3Io9gVTEBmxx.pdf"
-    link.download = "AbdulQadeer_Resume.pdf"
-    link.target = "_blank"
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+    window.open("https://blobs.vusercontent.net/blob/Abdul%20Qadeer%20-%20CV%20-VK2twcMH0yr05PQRLc3Io9gVTEBmxx.pdf", "_blank")
   }
 
   return (
