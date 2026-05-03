@@ -548,7 +548,7 @@ export default function Home() {
                 <p className="text-muted-foreground mb-6 text-sm">
                   Get the complete version of my resume with detailed information about my experience and skills.
                 </p>
-                <Button size="lg" className="w-full" onClick={downloadResume}>
+                <Button size="lg" className="w-full" onClick={() => window.open("https://blobs.vusercontent.net/blob/Abdul%20Qadeer%20-%20CV%20-VK2twcMH0yr05PQRLc3Io9gVTEBmxx.pdf", "_blank")}>
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
                 </Button>
